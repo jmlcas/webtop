@@ -3,7 +3,7 @@ version: "2.1"
 services:
 
   webtop:
-    image: ghcr.io/linuxserver/webtop
+    image: ghcr.io/linuxserver/webtop:ubuntu-mate
     container_name: webtop
     privileged: true #optional
     environment:
@@ -17,3 +17,5 @@ services:
       - 8200:3000
     shm_size: "1gb" #optional
     restart: unless-stopped
+    
+    

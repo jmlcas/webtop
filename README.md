@@ -1,6 +1,11 @@
-# weblinux
-Weblinux - Docker-compose  
+# webtop
+Webtop - Docker-compose  
 
 Ver en "localhost:8200"
 
-Tienes varios tags entre ellos: ubuntu-xfce, ubuntu-kde, latest (este es Alpine), etc. etc.
+Tienes varios tags entre ellos:
+
+ubuntu-mate
+ubuntu-xfce
+ubuntu-kde
+latest (este es XFCE Alpine)

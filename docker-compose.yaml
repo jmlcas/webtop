@@ -7,8 +7,8 @@ services:
     container_name: webtop
     privileged: true #optional
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=998
+      - PGID=100
       - TZ=Europe/Madrid
     volumes:
       - /config:/config

@@ -3,7 +3,7 @@ version: "2.1"
 services:
 
   webtop:
-    image: ghcr.io/linuxserver/webtop:ubuntu-mate
+    image: ghcr.io/linuxserver/webtop:latest
     container_name: webtop
     privileged: true #optional
     environment:

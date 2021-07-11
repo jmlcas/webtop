@@ -7,7 +7,7 @@ Tienes varios tags entre ellos:
 
 alpine-kde
 alpine-mate
-alpine-xfce (predeterminada)
+alpine-xfce
 
 ubuntu-kde
 ubuntu-mate

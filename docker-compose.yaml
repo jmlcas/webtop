@@ -3,13 +3,15 @@ version: "2.1"
 services:
 
   webtop:
-    image: ghcr.io/linuxserver/webtop:latest
+    image: lscr.io/linuxserver/webtop:latest
     container_name: webtop
-    privileged: true #optional
+    security_opt:
+      - seccomp:unconfined #optional
     environment:
       - PUID=998
       - PGID=100
       - TZ=Europe/Madrid
+      - KEYBOARD=es-es-qwerty #optional      
     volumes:
       - /config:/config
       - /var/run/docker.sock:/var/run/docker.sock #optional

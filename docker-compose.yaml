@@ -3,13 +3,13 @@ version: "2.1"
 services:
 
   webtop:
-    image: lscr.io/linuxserver/webtop:latest
+    image: lscr.io/linuxserver/webtop:ubuntu-mate
     container_name: webtop
     security_opt:
       - seccomp:unconfined #optional
     environment:
-      - PUID=998
-      - PGID=100
+      - PUID=1000
+      - PGID=1000
       - TZ=Europe/Madrid
       - KEYBOARD=es-es-qwerty #optional      
     volumes:

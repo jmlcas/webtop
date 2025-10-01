@@ -1,12 +1,6 @@
-# webtop
-Webtop - Docker-compose  
+# Webtop
 
-Ver en:
-
-"http://localhost:8200" 
-
-"https://localhost:8300"
-
+Ver en: "http://localhost:8200" ó "https://localhost:8300"
 
 Tienes varios tags entre ellos:
 

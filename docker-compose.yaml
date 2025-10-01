@@ -9,7 +9,8 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Madrid
-      - KEYBOARD=es-es-qwerty #optional      
+      - KEYBOARD=es-es-qwerty #optional
+      - LC_ALL=es_MX.UTF-8 # Spanish (Latin America)
     volumes:
       - /config:/config
       - /var/run/docker.sock:/var/run/docker.sock #optional
@@ -20,3 +21,4 @@ services:
     restart: unless-stopped
     
     
+

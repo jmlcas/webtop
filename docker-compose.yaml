@@ -3,13 +3,12 @@ services:
   webtop:
     image: lscr.io/linuxserver/webtop:ubuntu-mate
     container_name: webtop
-    security_opt:
-      - seccomp:unconfined #optional
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Madrid
-      - KEYBOARD=es-es-qwerty #optional
+      - CUSTOM_USER=admin
+      - PASSWORD=p4ssw0rd      
       - LC_ALL=es_MX.UTF-8 # Spanish (Latin America)
     volumes:
       - /config:/config
@@ -21,4 +20,5 @@ services:
     restart: unless-stopped
     
     
+
 

@@ -1,6 +1,6 @@
 # Webtop
 
-Ver en: "http://localhost:8200" ó "https://localhost:8300"
+Ver en: "https://localhost:8300"
 
 Usuario: admin
 

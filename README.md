@@ -2,6 +2,12 @@
 
 Ver en: "http://localhost:8200" ó "https://localhost:8300"
 
+Usuario: admin
+
+Password: p4ssw0rd
+
+------------------
+
 Tienes varios tags entre ellos:
 
 alpine-kde

@@ -9,7 +9,7 @@ services:
       - TZ=Europe/Madrid
       - CUSTOM_USER=admin
       - PASSWORD=p4ssw0rd      
-      - LC_ALL=es_MX.UTF-8 # Spanish (Latin America)
+      - LC_ALL=es_ES.UTF-8 
     volumes:
       - /config:/config
       - /var/run/docker.sock:/var/run/docker.sock #optional
@@ -20,5 +20,6 @@ services:
     restart: unless-stopped
     
     
+
 
 
